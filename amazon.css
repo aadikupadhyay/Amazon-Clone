@@ -1,0 +1,493 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    border:border-box;
+}
+.navbar{
+    height:50px;
+    background-color:#141b24;
+    border:2px solid transparent;
+    display:flex;
+    position:sticky;
+}
+.amazonlogo:hover{
+    border:2px solid white;
+}
+.amazonlogo{
+    padding-top:12px;
+    padding-left:10px;
+    padding-right:10px;
+    border:2px solid transparent;
+    display:inline-block;
+}
+.locationicon{
+    color:white;
+    display:flex;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:8px; 
+    border:2px solid transparent;
+}
+#a01{
+    font-size:15px;
+    padding-left:1px;
+    padding-right:1px;
+    color:white;
+    text-decoration: none;
+}
+.locationicon:hover{
+    border:2px solid white;
+}
+.catesearch{
+    display:flex;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#Category{
+    height:40px;
+    width:40px;
+    font-size:18px;
+    border:0.5px solid black;
+}
+#Category:hover{
+    background-color:#aaa8a8;
+}
+#search01{
+    height:36px;
+    width:1075px;
+    font-size:19px;
+}
+#searchbutton{
+    height:39.6px;
+    width:40px;
+    background-color:#ffa41c;
+}
+#searchbutton:hover{
+    background-color:#ff9900;
+}
+#language{
+    color:white;
+    display:flex;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border:2px solid transparent;
+}
+#language:hover{
+    border:2px solid white;
+}
+#a02{
+    color:white;
+    text-decoration: none;
+    padding-top:15px;
+}
+#accountslists{
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border:2px solid transparent;
+}
+#accountslists:hover{
+    border:2px solid white;
+}
+#a03{
+    color:white;
+    text-decoration: none;
+}
+#returnsorders{
+    padding-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border:2px solid transparent;
+}
+#a04{
+    color:white;
+    text-decoration: none;   
+}
+#returnsorders:hover{
+    border:2px solid white;
+}
+#cart{
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    border:2px solid transparent;
+}
+#a05{
+    color:white;
+    text-decoration: none;
+}
+#cart:hover{
+    border:2px solid white;
+}
+
+.header2{
+    height:40px;
+    width:100%;
+    background-color:#232f3e;
+    display:flex;
+}
+#allbutton{
+    border:2px solid transparent;
+    padding-top:8px;
+    padding-left:15px;
+    padding-right:15px;
+}
+#burger{
+    color:white;
+    padding-bottom:10px;
+    padding-left:2px;
+    text-decoration: none;
+    font-size:20px;  
+}
+#allbutton:hover{
+    border:2px solid white;
+}
+#todaydeal{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    font-size:17px;
+}
+#customerservice{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    font-size:17px;
+}
+#registery{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    font-size:17px;
+}
+#giftcards{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    font-size:17px;
+}
+#sell{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    font-size:17px;
+}
+#td{
+    color:white;
+    text-decoration: none;
+}
+#cstmr{
+    color:white;
+    text-decoration: none;  
+}
+#rgstry{
+    color:white;
+    text-decoration: none;
+}
+#gcs{
+    color:white;
+    text-decoration: none;
+}
+#becho{
+    color:white;
+    text-decoration: none;
+}
+#todaydeal:hover{
+    border:2px solid white;
+}
+#customerservice:hover{
+    border:2px solid white;
+}
+#registery:hover{
+    border:2px solid white;
+}
+#giftcards:hover{
+    border:2px solid white;
+}
+#sell:hover{
+    border:2px solid white;
+}
+.main1{
+    height:100vh;
+    width:100vw;
+    background-color:#f2f2f2;
+}
+#mainbg{
+    height:700px;
+    width:1650px;
+    position:relative;
+    left:110px;
+    right:180px;
+    align-content: center;
+    background-image:url("blackculture.jpg");
+    background-size:cover;
+    
+}
+#flexbox1{
+    height:460px;
+    width:395px;
+    background-color:white;
+    display:flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:350px;
+    left:10px;
+}
+#title1{
+    font-size:25px;
+    position:relative;
+    left:20px;
+    top:15px;
+}
+#headsets{
+    position:relative;
+    top:50px;
+    left:0px;
+    border:2px solid transparent;
+}
+#l01{
+    position: relative;
+    top:80px;
+    left:-175px;
+    color:black;
+    text-decoration: none;
+}
+#keyboards{
+    position:relative;
+    top:-70px;
+    left:200px;
+    border:2px solid transparent;
+}
+#l02{
+    position: relative;
+    top:-45px;
+    left:13px;
+    color:black;
+    text-decoration: none;
+}
+#mice{
+    position:relative;
+    top:0px;
+    left:10px;
+    border:2px solid transparent;
+}
+#l03{
+    position: relative;
+    top:20px;
+    left:-175px;
+    color:black;
+    text-decoration: none;
+}
+#chairs{
+    position:relative;
+    top:-114px;
+    left:200px;
+    border:2px solid transparent;
+}
+#l04{
+    position: relative;
+    top:-95px;
+    left:13px;
+    color:black;
+    text-decoration: none;
+}
+#l05{
+    position: relative;
+    top:-50px;
+    left:-225px;
+    color:rgb(0, 34, 128);
+    text-decoration: none;
+}
+#l05:hover{
+    color:#ff9900;
+}
+#flexbox2{
+    height:460px;
+    width:395px;
+    background-color:white;
+    display:flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:-110px;
+    left:420px;
+}
+#title2{
+    font-size:25px;
+    position:relative;
+    left:20px;
+    top:15px;
+}
+#prezday{
+    position:relative;
+    top:40px;
+    left:20px;
+}
+#l06{
+    position:relative;
+    top:63px;
+    left:20px;
+    color:rgb(0, 34, 128);
+    text-decoration: none;
+}
+#l06:hover{
+    color:#ff9900;
+}
+#flexbox3{
+    height:460px;
+    width:395px;
+    background-color:white;
+    display:flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:-570px;
+    left:830px;
+}
+#title3{
+    font-size:25px;
+    position:relative;
+    left:29px;
+    top:15px;
+}
+#area02{
+    position:relative;
+    top:37px;
+    left:21px;
+}
+#l07{
+    position:relative;
+    top:59px;
+    left:21px;
+    color:rgb(0, 34, 128);
+    text-decoration: none;
+}
+#l07:hover{
+    color:#ff9900;
+}
+#flexbox4{
+    height:460px;
+    width:395px;
+    background-color:white;
+    display:flex;
+    justify-content: space-evenly;
+    position:relative;
+    top:-1030px;
+    left:1240px;
+}
+#title4{
+    font-size:25px;
+    position:relative;
+    left:20px;
+    top:12px;
+}
+#kindle{
+    position:relative;
+    top:14px;
+    left:25px;
+}
+#l08{
+    position:relative;
+    top:30px;
+    left:25px;
+    color:rgb(0, 34, 128);
+    text-decoration: none;
+}
+#l08:hover{
+    color:#ff9900;
+}
+.footer1{
+    height:1000px;
+    width:100vw;
+    background-color:#232f3e;
+    display:block;
+}
+#gtku{
+    height:350px;
+    position:relative;
+    top:50px;
+    left:450px;
+    padding-bottom:10px;
+
+}
+.gtku01{
+    padding-bottom:10px;
+}
+.fc01{
+    padding-top: 10px;
+}
+#fb01{
+    color:white;
+    text-decoration: none;
+}
+#fa01{
+    color:white;
+    text-decoration: none;
+    padding-bottom:10px;
+}
+#fa02{
+    color:white;
+    text-decoration: none;
+    padding-top:10px;
+}
+#fa03{
+    color:white;
+    text-decoration: none;
+    padding-top:10px;
+}
+#fa04{
+    color:white;
+    text-decoration: none;
+    padding-top:10px;
+}
+#fa05{
+    color:white;
+    text-decoration: none;
+    padding-top:10px;
+}
+#fa06{
+    color:white;
+    text-decoration: none;
+    padding-top:10px;
+}
+#fa07{
+    color:white;
+    text-decoration: none;
+    padding-top:10px;
+}
+#fa08{
+    color:white;
+    text-decoration: none;
+    padding-top:10px;
+}
+#fa09{
+    color:white;
+    text-decoration: none;
+    padding-top:10px;
+}
+#gtku02{
+    height:350px;
+    position:relative;
+    top:-290px;
+    left:200px;
+    padding-bottom:10px;
+}
+#gtku03{
+    height:350px;
+    position:relative;
+    top:-320px;
+    left:300px;
+    padding-bottom:10px;
+}
+#gtku04{
+    position:relative;
+    top:-290px;
+    left:260px;
+    padding-bottom:10px;
+}
+#famazon{
+    position:relative;
+    top:0px;
+    left:110px;
+}
